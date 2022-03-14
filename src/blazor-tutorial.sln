@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{9F4E52CF-D1BF-44C4-8550-D22F7D714BE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazorecommerce.Server", "Blazorecommerce\Server\Blazorecommerce.Server.csproj", "{FCD32BDD-86E6-433D-9A15-FB3F204BC55B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazorecommerce.Server", "Blazorecommerce\Server\Blazorecommerce.Server.csproj", "{FCD32BDD-86E6-433D-9A15-FB3F204BC55B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazorecommerce.Client", "Blazorecommerce\Client\Blazorecommerce.Client.csproj", "{2F42289C-61C5-45F0-8C9A-2EB394794759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazorecommerce.Client", "Blazorecommerce\Client\Blazorecommerce.Client.csproj", "{2F42289C-61C5-45F0-8C9A-2EB394794759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazorecommerce.Shared", "Blazorecommerce\Shared\Blazorecommerce.Shared.csproj", "{0F379C5F-9081-44C1-ADFB-1B667923B046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazorecommerce.Shared", "Blazorecommerce\Shared\Blazorecommerce.Shared.csproj", "{0F379C5F-9081-44C1-ADFB-1B667923B046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
