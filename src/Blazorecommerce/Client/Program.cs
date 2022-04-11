@@ -2,6 +2,7 @@ global using Blazorecommerce.Shared;
 global using System.Net.Http.Json;
 global using Blazorecommerce.Client.Services.ProductService;
 global using Blazorecommerce.Client.Services.CategoryService;
+global using Blazorecommerce.Client.Services.AuthService;
 using Blazorecommerce.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -17,5 +18,6 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 await builder.Build().RunAsync();
