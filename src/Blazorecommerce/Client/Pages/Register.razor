@@ -11,7 +11,7 @@
         <InputText id="email" @bind-Value="user.Email" class="form-control"/>
         <ValidationMessage For="@(() => user.Email)" />
     </div>
-        <div class="mb-3">
+    <div class="mb-3">
         <label for="password">Password</label>
         <InputText id="password" @bind-Value="user.Password" class="form-control" type="password"/>
         <ValidationMessage For="@(() => user.Password)" />
